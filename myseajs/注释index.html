@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>searjs</title>
+</head>
+<body>
+    <script src="../sea.js"></script>
+    <script>
+        // 载入主模块  可以如果是多个，可以用数组
+        seajs.use('./chushi',function(){
+            console.log('我是主模块,我知道，你做完了，上菜吧')
+        })
+    </script>
+</body>
+</html>
